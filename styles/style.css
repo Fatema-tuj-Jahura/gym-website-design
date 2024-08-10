@@ -44,6 +44,12 @@ body{
     line-height: 120%;
     text-align: left;
 }
+.padding-top{
+    padding-top: 20px;
+}
+.padding-btm{
+    padding-bottom: 90px;
+}
 /* Header */
 /* Navbar */
 .nav-bar{
@@ -213,12 +219,12 @@ body{
 .padding{
     padding-top: 5px;
 }
-
 .round-pic-cart{
     /* padding */
     padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding-bottom: 50px; */
 }
 .pic-cart{
     display: flex;
@@ -231,7 +237,47 @@ body{
     border-radius: 50%;
     border: 5px solid rgba(82, 79, 79, 0.5);
 }
+/* Run section */
+.run{
+    /* padding */
+    width: 90%;
+    margin: auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+.run-text-cart{
+    display: flex;
+    flex-direction: column;
+}
+.run-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.btn-secondary{
+    /* margin */
+    border: none;
+    border-radius: 42px;
+    color: white;
+    background: rgb(230, 83, 60); 
+    width: 224px;
+    height: 54px;
+    margin-top: 20px;
+}
 
+.run-image{
+    width: 30%;
+    height: 30%;
+    border-radius: 18px;
+}
 /* Responsive website */
 @media screen and (max-width: 576px) {
     html, body{
@@ -356,6 +402,34 @@ body{
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+    
+    /* run section */
+    .run{
+        width: 80%;
+        margin:auto;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .run-image{
+        width: 287px;
+        height: 170px;
+        border-radius: 18px;
+    }
+    .btn-secondary{
+        /* margin */
+        margin-top: 10px;
+    }
+    .padding-top{
+        padding-top: 10px;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .run-text-cart p br{
+        display: none;
     }
 }
     
