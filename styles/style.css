@@ -218,7 +218,7 @@ body{
     padding-top: 90px;
 }
 .padding{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .round-pic-cart{
     /* padding */
@@ -387,6 +387,89 @@ body{
 }
 .span{
     grid-column: span 2;
+}
+/* meet our team part */
+.meet-container{
+    /* padding */
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.meet-text{
+    /* padding top bottom */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.team-pic-cart{
+    /* padding */
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.member-name{
+    /* padding */
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 0.5rem;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom:22px;
+}
+.trainer{
+    /* padding */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 0.5rem;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom:20px;
+}
+.member-1{
+    background-image: url(../images/trainer1.png);
+}
+.member-2{
+    background-image: url(../images/trainer2.png);
+}
+.member-3{
+    background-image: url(../images/trainer3.png);
+}
+.member-4{
+    background-image: url(../images/trainer4.png);
+}
+.member-5{
+    background-image: url(../images/trainer5.png);
+
+}
+.member-6{
+    background-image: url(../images/trainer6.png);
+
+}
+.pic-cart-edit{
+    border-radius: 18px;
+    width: 326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: left;
 }
 
 /* Responsive website */
@@ -611,6 +694,33 @@ body{
     }
     .span-2{
         width: 130px;
+    }
+    /* team-member */
+    .team-pic-cart{
+        width: 320px;
+        height: 1188px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pic-cart-edit{
+        width: 313px;
+        height: 272px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: left;
+    }
+    .member-1{
+        display: none;
+    }
+    .member-4{
+        display: none;
     }
 
 }
